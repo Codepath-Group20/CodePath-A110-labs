@@ -23,6 +23,10 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    "fine",      # Added so "I feel fine" can register as positive
+    "hello",     # Added to catch the greeting baseline
+    "proud",     # Added to help "proud of myself" register
+    "hopeful",   # Added to catch the mixed emotion sentence
 ]
 
 NEGATIVE_WORDS = [
@@ -36,6 +40,8 @@ NEGATIVE_WORDS = [
     "stressed",
     "hate",
     "boring",
+    "traffic",   # Added to help flag the sarcasm/bad situation
+    "stuck",     # Added to help flag the sarcasm/bad situation
 ]
 
 # ---------------------------------------------------------------------
@@ -50,6 +56,14 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "Have a great day!",  # Label: positive
+    "Hello everyone!",    # Label: positive
+# Add these to the end of your SAMPLE_POSTS list:
+    "I don't feel fine at all",
+    "I feel happy and yet sad to graduate",
+    "I absolutely love getting stuck in traffic",
+    "lowkey stressed but kind of proud of myself",
+    "This is so boring 💀",
 ]
 
 # Human labels for each post above.
@@ -65,6 +79,14 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "positive",  # "Have a great day!"
+    "positive",  # "Hello everyone!"
+# Add these matching labels to the end of your TRUE_LABELS list:
+    "negative",  # "I don't feel fine at all"
+    "mixed",     # "I feel happy and yet sad to graduate"
+    "negative",  # "I absolutely love getting stuck in traffic" (Sarcasm!)
+    "mixed",     # "lowkey stressed but kind of proud of myself"
+    "negative",   # "This is so boring 💀"
 ]
 
 # TODO: Add 5-10 more posts and labels.
