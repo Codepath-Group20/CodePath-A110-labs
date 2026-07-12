@@ -1,0 +1,5 @@
+# Global rules for all lab folders
+**/.venv/
+**/.env
+**/__pycache__/
+**/API-Key.txt
