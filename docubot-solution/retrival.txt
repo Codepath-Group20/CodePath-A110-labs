@@ -1,0 +1,144 @@
+(.venv) [leo@precision docubot-solution]$ python main.py
+DocuBot Tinker Activity
+=======================
+
+Choose a mode:
+  1) Naive LLM over full docs (no retrieval)
+  2) Retrieval only (no LLM)
+  3) RAG (retrieval + LLM)
+  q) Quit
+Enter choice: 2
+
+Press Enter to run built in sample queries.
+Or type a single custom query: 
+
+Running retrieval only mode on sample queries...
+
+============================================================
+Question: Where is the auth token generated?
+
+Retrieved snippets:
+[AUTH.md]
+- `TOKEN_LIFETIME_SECONDS`  
+  Controls how long a generated token remains valid. Defaults to 3600 seconds if not set.
+
+---
+[API_REFERENCE.md]
+This document lists the main API endpoints available in the sample application. It describes each route's purpose, required parameters, and expected responses. All protected endpoints require a valid access token.
+
+---
+[API_REFERENCE.md]
+Authenticates a user and returns a short lived access token.
+
+
+============================================================
+Question: What environment variables are required for authentication?
+
+Retrieved snippets:
+[AUTH.md]
+This document explains how authentication works in the sample application. It covers token generation, required environment variables, and the expected client workflow.
+
+---
+[SETUP.md]
+This document explains how to install, configure, and run the sample application. Follow these steps to prepare your environment, set required variables, and verify that everything is working correctly.
+
+---
+[AUTH.md]
+## Environment Variables
+
+
+============================================================
+Question: How do I connect to the database?
+
+Retrieved snippets:
+[DATABASE.md]
+# Database Guide
+
+---
+[DATABASE.md]
+This document describes the database layer used in the sample application. It covers connection details, table structures, and common query patterns that appear throughout the codebase.
+
+---
+[DATABASE.md]
+The application uses a lightweight SQLite database for local development. In production environments, it can be configured to use PostgreSQL by providing the correct connection string.
+
+
+============================================================
+Question: Which endpoint lists all users?
+
+Retrieved snippets:
+[API_REFERENCE.md]
+This document lists the main API endpoints available in the sample application. It describes each route's purpose, required parameters, and expected responses. All protected endpoints require a valid access token.
+
+---
+[API_REFERENCE.md]
+Returns a list of all users. Only accessible to admins.
+
+---
+[API_REFERENCE.md]
+### GET /api/users/<user_id>
+
+
+============================================================
+Question: What does the /api/projects/<project_id> route return?
+
+Retrieved snippets:
+[API_REFERENCE.md]
+### GET /api/projects/<project_id>
+
+---
+[API_REFERENCE.md]
+This document lists the main API endpoints available in the sample application. It describes each route's purpose, required parameters, and expected responses. All protected endpoints require a valid access token.
+
+---
+[API_REFERENCE.md]
+### GET /api/projects
+
+
+============================================================
+Question: Is there any mention of payment processing in these docs?
+
+Retrieved snippets:
+I do not know based on these docs.
+
+============================================================
+Question: How does a client refresh an access token?
+
+Retrieved snippets:
+[API_REFERENCE.md]
+This document lists the main API endpoints available in the sample application. It describes each route's purpose, required parameters, and expected responses. All protected endpoints require a valid access token.
+
+---
+[API_REFERENCE.md]
+Authenticates a user and returns a short lived access token.
+
+---
+[API_REFERENCE.md]
+* 401 for missing token
+* 403 if caller cannot access the project
+* 404 if the project does not exist
+
+
+============================================================
+Question: Which fields are stored in the users table?
+
+Retrieved snippets:
+[API_REFERENCE.md]
+### GET /api/users/<user_id>
+
+---
+[API_REFERENCE.md]
+### GET /api/users
+
+---
+[API_REFERENCE.md]
+Returns a list of all users. Only accessible to admins.
+
+
+Choose a mode:
+  1) Naive LLM over full docs (no retrieval)
+  2) Retrieval only (no LLM)
+  3) RAG (retrieval + LLM)
+  q) Quit
+Enter choice: 
+
