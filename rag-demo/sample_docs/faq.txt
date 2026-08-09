@@ -1,0 +1,2 @@
+Students often ask how to reset passwords. Password reset links expire
+after 15 minutes for security reasons. Users must verify email ownership.

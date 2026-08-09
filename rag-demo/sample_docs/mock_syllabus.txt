@@ -1,0 +1,184 @@
+COLLEGE UNIVERSITY
+Department of Computer Science
+CS 101: Introduction to Computer Science
+Summer Term 2025
+
+================================================================================
+COURSE INFORMATION
+================================================================================
+
+Course Title:     Introduction to Computer Science
+Course Number:    CS 101
+Credits:          3
+Format:           In-Person
+Location:         Engineering Hall, Room 204
+Schedule:         Monday, Tuesday, Wednesday, Thursday 10:00 AM – 11:30 AM
+Term:             Summer 2025 (June 2 – August 1, 2025)
+Course Website:   https://courses.example.edu/cs101-summer2025
+
+================================================================================
+INSTRUCTOR INFORMATION
+================================================================================
+
+Instructor:       Dr. Alex Johnson
+Office:           Engineering Hall, Room 312
+Email:            a.johnson@example.edu
+Office Hours:     Tuesday & Thursday 12:00 PM – 1:30 PM, or by appointment
+
+Teaching Assistant: Jordan Kim
+Email:            j.kim@example.edu
+TA Office Hours:  Monday & Wednesday 1:00 PM – 2:30 PM (Engineering Hall, Room 105)
+
+================================================================================
+COURSE DESCRIPTION
+================================================================================
+
+An introduction to the fundamental concepts of computer science and programming.
+Topics include problem solving, algorithm design, basic data structures, and
+programming in Python. No prior programming experience is required. This course
+is appropriate for students of all majors seeking foundational computing skills,
+as well as CS majors beginning their degree program.
+
+================================================================================
+LEARNING OBJECTIVES
+================================================================================
+
+By the end of this course, students will be able to:
+
+  1. Write, test, and debug programs in Python.
+  2. Apply fundamental problem-solving and algorithmic thinking strategies.
+  3. Understand and use basic data structures: lists, dictionaries, and tuples.
+  4. Explain core CS concepts including variables, control flow, functions,
+     and recursion.
+  5. Read and interpret simple programs written by others.
+  6. Collaborate on small programming projects and communicate technical ideas
+     clearly.
+
+================================================================================
+REQUIRED MATERIALS
+================================================================================
+
+Textbook:   "Python Programming: An Introduction to Computer Science" by John Zelle
+            (Any recent edition is acceptable.)
+
+Software:   Python 3.10+ (free download at https://www.python.org/downloads/)
+            VS Code (free download at https://code.visualstudio.com/)
+
+All additional readings and resources will be posted on the course website at
+https://courses.example.edu/cs101-summer2025.
+
+================================================================================
+COURSE SCHEDULE
+================================================================================
+
+Week 1  (Jun 2–5)   Introduction to CS; Setting up Python; Basic I/O
+Week 2  (Jun 9–12)  Variables, Data Types, and Expressions
+Week 3  (Jun 16–19) Conditionals and Boolean Logic
+Week 4  (Jun 23–26) Loops: while and for; Iteration Patterns
+                    ** Midterm Exam: Thursday, June 26 **
+Week 5  (Jun 30–Jul 3)  Functions: Defining and Calling; Scope
+                    ** No class July 4 (Independence Day) **
+Week 6  (Jul 7–10)  Lists and Tuples
+Week 7  (Jul 14–17) Dictionaries and Sets
+Week 8  (Jul 21–24) File I/O; Introduction to Recursion
+Week 9  (Jul 28–31) Sorting and Searching Algorithms; Review
+                    ** Final Exam: Thursday, July 31 **
+
+Note: The schedule is subject to change. Updates will be announced on the
+course website and via email.
+
+================================================================================
+ASSIGNMENTS AND GRADING
+================================================================================
+
+  Component               Weight
+  ----------------------  ------
+  Programming Labs (10)    30%
+  Homework Assignments (5) 20%
+  Participation            10%
+  Midterm Exam             20%
+  Final Exam               20%
+  ----------------------  ------
+  Total                   100%
+
+Grading Scale:
+  A   93–100    A-  90–92
+  B+  87–89     B   83–86    B-  80–82
+  C+  77–79     C   73–76    C-  70–72
+  D+  67–69     D   63–66    D-  60–62
+  F   Below 60
+
+Programming Labs:
+Labs are short, in-class coding exercises completed individually. Labs are
+submitted through the course portal by 11:59 PM on the day of class. Late
+labs are not accepted, but the lowest lab score is dropped.
+
+Homework Assignments:
+Homework assignments involve more substantial programming tasks completed
+outside of class. Assignments are due by 11:59 PM on the listed due date.
+Late submissions lose 10% per day, up to a maximum of 3 days late.
+
+Exams:
+The midterm and final exams are closed-book and closed-notes. Students may
+use one hand-written or typed and printed reference sheet (front and back, 8.5" x 11"). Exams
+must be taken at the scheduled time; makeup exams are available only in
+documented emergencies with prior notice to the instructor.
+
+================================================================================
+COURSE POLICIES
+================================================================================
+
+Attendance:
+Regular attendance is expected. Because this is an accelerated summer course,
+missing more than 3 class sessions may result in a grade penalty. Students 
+arriving after class begins may or may not be admitted, at the instructor's 
+discretion. Students are responsible for all material covered in class 
+regardless of attendance.
+
+Academic Integrity:
+All submitted work must be your own unless otherwise specified. Collaboration
+is encouraged for learning purposes, but submitted code must be written
+independently. Use of AI code-generation tools to complete assignments is not
+permitted unless explicitly approved by the instructor. Violations of College
+University's Academic Integrity Policy will be reported to the Dean of Students.
+The full policy is available at https://integrity.example.edu.
+
+Accessibility and Accommodations:
+Students requiring accommodations should contact the Office of Accessibility
+Services at accessibility@example.edu and provide documentation to the
+instructor within the first week of class. College University is committed
+to providing equal access to all students.
+
+Communication:
+The instructor will respond to emails within 48 hours on weekdays. For
+urgent questions, please attend office hours. Course announcements will be
+posted on the course website and sent via the College University email system.
+Students are expected to check their @example.edu email daily. For difficulties 
+with your @example.edu email, please contact it-help@example.edu.
+
+Conduct:
+Students are expected to treat all members of the class with respect. Please
+silence mobile devices during class. Laptops and tablets may be used for
+class-related activities only.
+
+================================================================================
+SUPPORT RESOURCES
+================================================================================
+
+  Computer Science Tutoring Center:  cs-tutoring@example.edu
+                                      Engineering Hall, Room 010
+                                      Mon–Fri 9:00 AM – 5:00 PM
+
+  Writing & Academic Support Center: https://success.example.edu
+  Mental Health & Counseling:         counseling@example.edu
+  Library Resources:                  https://library.example.edu
+
+================================================================================
+
+College University Department of Computer Science
+https://cs.example.edu | cs-advising@example.edu
+
+This syllabus is subject to change. Any changes will be announced in class
+and posted to the course website.
+
+================================================================================

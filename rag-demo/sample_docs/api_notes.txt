@@ -1,0 +1,2 @@
+The fetch_user_profile endpoint returns user data including preferences.
+It accepts query parameters for filtering and sorting by activity.
