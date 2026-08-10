@@ -1,11 +1,12 @@
+import time
 import random
 
 MAX_STEPS = 6
-STALL_STOP = None
+STALL_STOP = 5
 COST_PER_STEP = 9.50
 SEED = 2
 
-random.seed(SEED)
+random.seed(time.time())
 
 # Pretend "prompt" the code sends to a model
 ANALYZER_PROMPT = """
@@ -120,7 +121,7 @@ for step in range(1, MAX_STEPS + 1):
         break
 
     if STALL_STOP is not None and repeat_count >= STALL_STOP:
-        print(f"{step:>4} | {plan_text:<34} | {action:<34} | FAIL   | ${cost:<5.2f} | 🛑 stop (stalled → ask human)")
+    #    print(f"{step:>4} | {plan_text:<34} | {action:<34} | FAIL   | ${cost:<5.2f} | 🛑 stop (stalled → ask human)")
         print(f"{step:>4} | {plan_text:<30} | {raw_short:<30} | {parse_status:<5} | {action:<34} | FAIL   | ${cost:<5.2f} | 🛑 stop (stalled → ask human)")
         break
 
