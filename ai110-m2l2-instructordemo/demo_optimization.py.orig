@@ -1,0 +1,12 @@
+import timeit
+import random
+
+large_list = [random.randint(0, 100000) for _ in range(10000)]
+queries = [random.randint(0, 100000) for _ in range(1000)]
+
+def slow_lookup():
+    found = []
+    for q in queries:
+        if q in large_list:
+            found.append(q)
+    return found
